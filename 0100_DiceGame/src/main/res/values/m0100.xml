@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m0100_t001">擲骰子遊戲</string>
+    <string name="m0100_img01">img_missing</string>
+    <string name="m0100_t002">You Win</string>
+    <string name="m0100_t003">You Lose</string>
+</resources>

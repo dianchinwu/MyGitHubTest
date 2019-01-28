@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Mistyrose"
+    android:orientation="vertical"
+    android:padding="@dimen/Padding10"
+    tools:context=".M0803">
+
+    <TextView
+        android:id="@+id/m0803_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/m0803_t001"
+        android:textColor="@color/Blue"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/m0803_p001"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:progressTint="@color/Skyblue"
+        android:secondaryProgressTint="@color/Water" />
+
+    <TextView
+        android:id="@+id/m0803_t002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/Padding10"
+        android:background="@color/Wheat"
+        android:text="@string/m0803_t002"
+        android:textColor="@color/Blue"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/m0803_p002"
+        style="@android:style/Widget.ProgressBar.Inverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Wheat"
+        android:progressTint="@color/Darkcyan"
+        android:secondaryProgressTint="@color/Mediumvioletred" />
+
+    <TextView
+        android:id="@+id/m0803_t003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/Padding10"
+        android:background="@color/Tan"
+        android:text="@string/m0803_t003"
+        android:textColor="@color/Blue"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/m0803_p003"
+        style="@android:style/Widget.ProgressBar.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Tan"
+        android:progressTint="@color/Green"
+        android:secondaryProgressTint="@color/Teal" />
+
+    <TextView
+        android:id="@+id/m0803_t004"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/Padding10"
+        android:background="@color/Silver"
+        android:text="@string/m0803_t004"
+        android:textColor="@color/Blue"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/m0803_p004"
+        style="@android:style/Widget.ProgressBar.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Silver"
+        android:paddingTop="@dimen/pa01"
+        android:progressTint="@color/Yellow"
+        android:secondaryProgressTint="@color/Black" />
+
+    <Button
+        android:id="@+id/m0803_b001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/Padding10"
+        android:text="@string/m0803_b001" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/myname"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/Darkmagenta"
+        android:textSize="18sp" />
+
+</LinearLayout>

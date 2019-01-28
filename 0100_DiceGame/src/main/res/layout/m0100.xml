@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a000"
+    tools:context=".M0100">
+
+    <TextView
+        android:id="@+id/m0100_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Wheat"
+        android:text="@string/m0100_t001"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <ImageSwitcher
+        android:id="@+id/m0100_img01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/m0100_t001"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/m0100_img01"
+        app:srcCompat="@drawable/d01" />
+
+    <ImageButton
+        android:id="@+id/m0100_ibn01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0100_t001"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/m0100_img01"
+        app:srcCompat="@drawable/g001" />
+
+    <ImageButton
+        android:id="@+id/m0100_ibn02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0100_ibn01"
+        android:layout_alignStart="@+id/m0100_ibn01"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:background="#00000000"
+        android:contentDescription="@string/m0100_img01"
+        app:srcCompat="@drawable/g002" />
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="390dp"
+        android:layout_height="311dp"
+        android:layout_above="@+id/myname"
+        android:layout_below="@+id/m0100_ibn02"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="0dp" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/myname"
+        android:textColor="@color/Black"
+        android:textSize="18sp" />
+
+</RelativeLayout>

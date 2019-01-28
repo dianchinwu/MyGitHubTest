@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m1001_b001">1.瀏覽網頁</string>
+    <string name="m1001_b002">2.播放MP3</string>
+    <string name="m1001_b003">3.顯示圖片</string>
+    <string name="m1001_b004">4.撥電話</string>
+    <string name="m1001_b005">5.Google Map</string>
+    <string name="m1001_b006">6.路徑規劃</string>
+    <string name="m1001_b007">7.傳送Email</string>
+    <string name="m1001_b008">8.顯示聯絡人清單</string>
+    <string name="m1001_b009">9.拍照並儲存</string>
+    <string name="m1001_b010">10.Google Play</string>
+</resources>
